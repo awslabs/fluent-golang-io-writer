@@ -1,4 +1,6 @@
 github.com/awslabs/fluent-golang-io-writer v0.0.0-20191112191854-1a94fd62565f h1:s0GpbdktVtqoeG9f2HOx5Hbq0TWLue8WLt4smX6Wad4=
+github.com/awslabs/fluent-golang-io-writer v0.0.0-20191112233828-929886448f9e h1:vR7lNecT/tp+sIdlYNhYI0+z0oHd4z0mCGobrM4WdPg=
+github.com/awslabs/fluent-golang-io-writer v0.0.0-20191112233828-929886448f9e/go.mod h1:LqRfIVwRut79/hb4cip9lUB6gJI1+iftKOV4jrePSFo=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/fluent/fluent-logger-golang v1.4.0 h1:uT1Lzz5yFV16YvDwWbjX6s3AYngnJz8byTCsMTIS0tU=
 github.com/fluent/fluent-logger-golang v1.4.0/go.mod h1:2/HCT/jTy78yGyeNGQLGQsjF3zzzAuy6Xlk6FCMV5eU=
