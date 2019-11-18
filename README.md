@@ -14,7 +14,7 @@ Simple example with the popular `sirupsen/logrus` logger:
 import (
 	"fmt"
 
-	"github.com/PettitWesley/fluent-logger-io-writer/logger"
+	"github.com/awslabs/fluent-golang-io-writer/logger"
 
 	"github.com/fluent/fluent-logger-golang/fluent"
 	"github.com/sirupsen/logrus"
