@@ -44,6 +44,20 @@ func main() {
 }
 ```
 
+```
+logger.NewFluentWriter(fluent.Config{}, "app", []string{"level"})
+```
+
+Above, we see the call to the constructor for the library. The first argument is the Fluent Logger Golang config object which configures the connection to Fluentd/Bit. The second argument is a prefix for the tags given to logs emitted by this writer. The third argument is a list of keys in the log messages whose values will be the suffix of the tag. This library relies on the fact that the logs produced by Logrus will be JSON formatted. Thus, it will find the `level` key in each log message and append this to the tag prefix to construct the final tag. In practice, logs will be emitted with tags as follows:
+
+- `app.debug` for the debug logs
+- `app.info` for the info logs
+- `app.warning` for the warn logs
+- `app.error` for the error logs
+- `app.fatal` for the fatal logs
+
+Logs which do not have a level field or which can not be parsed as JSON will simply be given the tag `app`.
+
 ## License
 
 This project is licensed under the Apache-2.0 License.
