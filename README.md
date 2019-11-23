@@ -2,7 +2,9 @@
 
 Go Code that wraps the fluent-logger-golang in a struct that implements [io.Writer](https://golang.org/pkg/io/).
 
-**Note:** This library was created to demonstrate a somewhat experimental idea. If you end up using it (or write your own similar code), [please plus one this issue to let us know](https://github.com/awslabs/fluent-golang-io-writer/issues/1). Thoughts/comments/feedback also welcome.
+*This library is covered in an AWS Open Source blog post: [Splitting an application’s logs into multiple streams: a Fluent tutorial](https://aws.amazon.com/blogs/opensource/splitting-application-logs-multiple-streams-fluent/)*
+
+Note: This library was created to demonstrate a somewhat experimental idea. If you end up using it (or write your own similar code), [please plus one this issue to let us know](https://github.com/awslabs/fluent-golang-io-writer/issues/1). Thoughts/comments/feedback also welcome.
 
 This means it can be used as the underlying io stream for many loggers. See [main.go](main.go) for full example usage.
 
