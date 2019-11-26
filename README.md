@@ -1,4 +1,4 @@
-# fluent-logger-io-writer
+# fluent-logger-io-writer [![GoDoc](https://godoc.org/github.com/awslabs/fluent-golang-io-writer?status.svg)](https://godoc.org/github.com/awslabs/fluent-golang-io-writer)
 
 *This library is covered in an AWS Open Source blog post: [Splitting an application’s logs into multiple streams: a Fluent tutorial](https://aws.amazon.com/blogs/opensource/splitting-application-logs-multiple-streams-fluent/)*
 
